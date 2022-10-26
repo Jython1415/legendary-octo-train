@@ -1,0 +1,46 @@
+/*===== Header =====*/
+
+/* the whole header, which includes the navbar and logo */
+#header {
+        transition: all 0.5s;
+        z-index: 997;
+        padding: 15px 0;
+}
+
+/* the logo itself */
+#header .logo {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+}
+
+/* the a (href) class */
+#header .logo a {
+        color: black;
+}
+
+
+/*====== Navigation Bar =====*/
+.navbar {
+        padding: 0;
+}
+
+.navbar ul {
+        margin: 0;
+        padding: 0;
+        /* By using display flex in parent elements, child elements automatically align like columns or rows with auto width and auto height */
+        display: flex;
+        /* automatically aligns the list to be horizontal due to the navbar being horizontal */
+        list-style: none;
+        /* gets rid of the bullet points */
+        align-items: center;
+        /* aligns all items to be in a perfectly horizontal */
+}
+
+.navbar li {
+        position: relative;
+}
