@@ -44,3 +44,44 @@
 .navbar li {
         position: relative;
 }
+
+.navbar a,
+.navbar a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0 10px 30px;
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+        white-space: nowrap;
+        transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+        color: #47b2e4;
+}
+
+.navbar .signup,
+.navbar .signin,
+.navbar .signup:focus,
+.navbar .signin:focus {
+        padding: 8px 20px;
+        margin-left: 30px;
+        border-radius: 50px;
+        color: black;
+        font-size: 14px;
+        border: 2px solid #47b2e4;
+        font-weight: 600;
+}
+
+.navbar .signup:hover,
+.navbar .signin:hover,
+.navbar .signup:focus:hover,
+.navbar .signin:focus:hover {
+        color: black;
+        background: #31a9e1;
+}
